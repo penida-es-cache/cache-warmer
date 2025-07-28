@@ -107,7 +107,7 @@ async function purgeCloudflareCache(url) {
   }
 }
 
-async function warmUrls(urls, country, batchSize = 3, delay = 5000) {
+async function warmUrls(urls, country, batchSize = 1, delay = 2000) {
   const proxy = PROXIES[country];
   const agent = new HttpsProxyAgent(proxy);
 
