@@ -20,7 +20,7 @@ const PROXIES = {
 
 // UA browser-like agar tidak mudah diblokir WAF/CDN
 const USER_AGENTS = {
-  es: "PenidaDiveCenter - CacheWarmer - FR / 1.0",
+  es: "PenidaDiveCenter - CacheWarmer - ES / 1.0",
 };
 
 /* ====== CLOUDFLARE (opsional) ====== */
